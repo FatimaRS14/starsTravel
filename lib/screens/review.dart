@@ -74,9 +74,11 @@ class Review extends StatelessWidget {
     margin: const EdgeInsets.only(
       left: 20.0,
        ),
-      child: Text(details,
+      child: Text(commet,
       textAlign: TextAlign.left,
-      style: GoogleFonts.lato(fontSize: 14.0,
+      style: GoogleFonts.lato(
+        fontWeight: FontWeight.normal,
+        fontSize: 14.0,
           color: Colors.black54,
       ),
       ),
