@@ -28,7 +28,8 @@ class _SmallButtonState extends State<SmallButton> {
     mini: true,
     tooltip: 'Fav',
     child: Icon(pressed? Icons.favorite : Icons.favorite_border),
-
+//    child: Icon(pressed? Icons.favorite : Icons.favorite_border),
+//este es un operador ternario y solo funciona con una accion 
     );
   }
 }
