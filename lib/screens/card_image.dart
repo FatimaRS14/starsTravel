@@ -4,7 +4,8 @@ import 'package:travel_app5b/screens/small_button.dart';
 
 class CardImage extends StatelessWidget {
   final String pathImage;
-  const CardImage({super.key, required this.pathImage});
+ 
+  const CardImage({super.key, required this.pathImage, });
 
   @override
   Widget build(BuildContext context) {
